@@ -16,6 +16,7 @@ app.set('view engine', 'handlebars')
 // for restaurant-list 
 app.get('/', (req,res) => {
   res.render('index', { restaurants: restaurantList.results })
+  // document.title = 'yooo'
 })
 
 
