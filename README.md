@@ -1,11 +1,10 @@
 # Foodie Bucket List
 ![](public/screenshots/screenshot_index.jpg)
----
+
 ## 📖 Introduction
 
 This website is a Foodie Bucket List in Taipei which contains all restaurants’ addresses, phone numbers, categories, and ratings. Moreover, you can use the search bar to check certain restaurants. Lastly, you can click one of the lists to view the detailed description of restaurants.
 
----
 ## 🎮 Features
 Users can overview all restaurants, including:
 - Restaurant pictures
@@ -22,7 +21,7 @@ Users can view the detail of the restaurant, including:
 Users can use the search bar to check certain restaurants
 - When it’s a typo, and cannot find any restaurant, it will display an error message
   ![](public/screenshots/screenshot_typo.jpg)
----
+
 ## 🛠️ Installation
 ```
 # Clone this repository
@@ -40,14 +39,14 @@ $ npm run start
 # To stop the project
 ctrl + c
 ```
----
+
 ## 👩🏻‍💻 Tech/framework used
 - VScode 1.73.1
 - Express 4.16.4
 - Express-handlebars 3.0.0
 - bootstrap 5.1.3
 - font-awesome
----
+
 ## 🗺️ Roadmap
 
 - [x]  List of restaurants
