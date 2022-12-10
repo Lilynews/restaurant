@@ -25,7 +25,7 @@ app.get('/restaurants/:restaurant_id', (req, res) => {
   const restaurant = restaurantList.results.find( restaurant => {
     return restaurant.id.toString() === req.params.restaurant_id
   })
-  res.render('show', { restaurant: restaurant })
+  res.render('show', { restaurant })
 })
 
 
@@ -34,7 +34,7 @@ app.get('/search', (req, res) => {
   const restaurants = restaurantList.results.filter(restaurant => {
     return restaurant.name.toLowerCase().includes(keyword.toLowerCase())
   })
-  res.render('index', { restaurants: restaurants, keyword: keyword })
+  res.render('index', { restaurants, keyword })
 })
 
 /////// setting listening
